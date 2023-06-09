@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import SocialMedia from "./SocialMedia";
 import faceImg from '../assets/Image.png';
-import logo from '../assets/logo-2.png';
 import skyscraperLogo from '../assets/skyscraperIcon.svg';
 import pinLogo from '../assets/pinLogo.svg';
 
@@ -21,20 +20,18 @@ return (
     <div className="profile-card">
         <figure className="profile-card__img">
             <img className="profile-pic" src={faceImg} alt="" />
-            <a href="https://www.pressstart.bg" target="_blank" className="company-logo">
-                <img src={logo} alt="" />
-            </a>
+            
         </figure>
         <div className="profile-card__desc">
-            <h1>Dimitar Ivanov</h1>
-            <p>Full Stack Developer</p>
+            <h1>Bartosz Kwasecki</h1>
+            <p>Junior Frontend Developer</p>
             <div style={{display: 'flex', alignItems: 'center', gap: 10, justifyContent: 'center'}}>
                 <img src={skyscraperLogo} alt='logo' style={{ height: 24, width: 24 }}/>
-                <span>Press Start ltd</span>
+                <span>Mindfit ltd</span>
             </div>
             <div style={{display: 'flex', alignItems: 'center', gap: 10, justifyContent: 'center'}}>
                 <img src={pinLogo} alt='logo' style={{ height: 24, width: 24 }}/>
-                <span>Sofia, Bulgaria</span>
+                <span>London, United Kingdom</span>
             </div>
         </div>
         <div className="profile-card__info">
